@@ -18,7 +18,7 @@
 <body>
   <div id="container-box">
     <div>
-      <a href="index.html">Votlar tela de login</a>
+      <a href="index.html">Voltar tela de cadastro</a>
     </div>
     <div>
       <table id="tbl-list">

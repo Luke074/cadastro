@@ -6,8 +6,8 @@
 }
 
 a, a:checked, a:active{
-  color: rgb(18, 91, 228);
-  font-style: italic;
+  color: rgb(0, 89, 255);
+  font-weight: bold;
 }
 
 a:hover{

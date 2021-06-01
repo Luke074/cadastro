@@ -3,7 +3,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: lightskyblue;
+  background-color: rgb(160, 219, 255);
 }
 
 #container-box>div{
