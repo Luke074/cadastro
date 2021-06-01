@@ -5,24 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registre-se</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/globalStyles.css">
 </head>
 <body>
   <div id="container_box">
     <div id="box_center">
-      <div>
-        <img src="img/user.png">
+      <header>
+        <img src="../img/user.png">
         <h2>Registre-se</h2>
-      </div>
-      <form name="frmAdicionarUsuario" action="./php/adicionarUser.php" method="post">
+      </header>
+      <form name="frmAdicionarUsuario" action="../php/adicionarUser.php" method="post">
         <input id="nameUser" name="txtNome" type="text" placeholder="Insira seu nome" required/>
         <input id="cpfUser" name="txtCpf" type="text" placeholder="xxx.xxx.xxx-xx" maxlength="14" onkeyup="maskCPF()" required/>
         <input id="emailUser" name="txtEmail" type="text" placeholder="seuemail@seuemail.com" required/>
         <input id="passwordUser" name="txtSenha" type="password" placeholder="senha" minlength="7" required/>
         <button type="submit">Entrar</button>
       </form>
+      <div>
+        <a href="./listarUsarios.php">Lista de Usuarios</a>
+      </div>
     </div>
   </div>
 </body>
-<script src="js/cpf.js"></script>
+<script src="../js/cpf.js"></script>
 </html>

@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:checked, a:active{
+  color: rgb(18, 91, 228);
+  font-style: italic;
+}
+
+a:hover{
+  color: darkred;
+}
+
+input{
+  width: 70%;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding-left: 7px;
+}
+
+button{
+  width: 120px;
+  height: 30px;
+  border-radius: 50px;
+  font-size: 18px;
+}
