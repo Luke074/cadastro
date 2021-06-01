@@ -1,0 +1,63 @@
+#container-box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+
+#container-box>div{
+  width: inherit;
+  min-height: 80px;
+  height: auto;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+#tbl-list{
+  width: 90%;
+  min-height: 30px;
+  height: auto;
+  margin: 0 auto;
+}
+#tbl-titulo{
+  width: 100%;
+  height: 30px;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+#linha-titulo{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.coluna-titulo{
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.tbl-linha{
+  width: 100%;
+  height: 40px;
+  border: solid 1px black;
+  border-radius: 20px;
+}
+
+.tbl-coluna{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: solid 1px black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 16px;
+}

@@ -38,7 +38,7 @@ if (mysqli_query($conex, $sql))
   ("
     <script>
         alert('Registro Inserido com sucesso!');
-        location.href = '../index.html';
+        location.href = '../src/index.html';
     </script>
   ");
 }
@@ -46,8 +46,8 @@ else{
   echo
   ("
     <script>
-        alert('Erro ao Inserir os dados no Banco de Dados! Favor verificar a digitação de todos os dados.');
-        location.href = '../index.html';
+        alert('Erro ao Inserir os dados no Banco de Dados! Veja os Dados que estão sendo inseridos');
+        location.href = '../src/index.html';
         window.history.back();
     </script> 
   ");
