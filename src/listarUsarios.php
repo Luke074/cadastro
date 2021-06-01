@@ -27,7 +27,7 @@
                 <h1> Lista de Usuarios</h1>
             </td>
         </tr>
-        <tr id="linha-titulo">
+        <tr class="linha-titulo">
         <td class="coluna-titulo">identificação</td>
           <td class="coluna-titulo">nome</td>
           <td class="coluna-titulo">cpf</td>
