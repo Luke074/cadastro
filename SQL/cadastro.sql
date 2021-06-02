@@ -9,7 +9,6 @@ create table usuario(
     email varchar(50) not null,
     senha varchar(35) not null
 );
-drop table usuario;
 insert into usuario(nome, cpf, email, senha) value("Lucas", "123.123.123-22", "teste@testando.com", "1234567");
 
 select * from usuario;
